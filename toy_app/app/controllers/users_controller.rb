@@ -4,6 +4,8 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
+    # Userモデルから全てのユーザーの一覧を取り出し@usersに保存する
+    # Active RecordというRubyライブラリによるもの
     @users = User.all
   end
 
