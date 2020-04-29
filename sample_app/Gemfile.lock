@@ -94,8 +94,8 @@ GEM
     method_source (1.0.0)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
-    minitest (5.10.3)
-    minitest-reporters (1.1.14)
+    minitest (5.14.0)
+    minitest-reporters (1.4.2)
       ansi
       builder
       minitest (>= 5.0)
@@ -197,6 +197,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ansi (= 1.5.0)
   byebug (= 9.0.6)
   coffee-rails (= 4.2.2)
   guard (= 2.16.2)
@@ -204,8 +205,8 @@ DEPENDENCIES
   jbuilder (= 2.6.4)
   jquery-rails (= 4.3.1)
   listen (= 3.1.5)
-  minitest (= 5.10.3)
-  minitest-reporters (= 1.1.14)
+  minitest (= 5.14.0)
+  minitest-reporters (= 1.4.2)
   pg (= 0.20.0)
   puma (= 3.12.4)
   rails (= 5.1.6)
